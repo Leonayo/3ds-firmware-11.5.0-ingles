@@ -1,6 +1,20 @@
 # Firmware 3DS en inglés 11.5.0
 
-Paquete de firmware para consolas **Nintendo 3DS** orientado a convertir el sistema de **japonés a inglés**. Está pensado para quienes tienen una 3DS de región japonesa y quieren usarla en inglés con menús, mensajes y configuración más accesibles.
+Paquete de firmware para consolas **Nintendo 3DS** (modelos **antiguos / originales**) orientado a convertir el sistema de **japonés a inglés**. Está pensado para quienes tienen una 3DS de región japonesa y quieren usarla en inglés con menús, mensajes y configuración más accesibles.
+
+## Compatibilidad — solo modelos antiguos (O3DS)
+
+Este firmware es **únicamente para las consolas Nintendo 3DS “viejas”** (familia O3DS). **No** sirve para la línea **New Nintendo 3DS**.
+
+| Sí — compatible | No — no compatible |
+|-----------------|-------------------|
+| Nintendo 3DS | New Nintendo 3DS |
+| Nintendo 3DS XL | New Nintendo 3DS XL |
+| Nintendo 2DS | New Nintendo 2DS XL |
+
+El archivo incluido se llama `11.5.0-38U_ctrtransfer_**o3ds**.bin` — la parte **o3ds** significa **old 3DS** (3DS / 3DS XL / 2DS original). Para **New 3DS** necesitas un ctrtransfer distinto (**n3ds**), que **no** está en este repositorio.
+
+Si tienes una **New 3DS**, **New 3DS XL** o **New 2DS XL**, no uses este pack.
 
 ## ¿Para qué sirve?
 
@@ -10,8 +24,8 @@ Este firmware ayuda a **modificar y adaptar consolas 3DS japonesas al idioma ing
 
 Es útil si:
 
-- Tienes una 3DS japonesa y quieres cambiar el idioma del sistema a **inglés**.
-- Tienes una 3DS japonesa y quieres cambiar el idioma del sistema a **español**.
+- Tienes una **3DS / 3DS XL / 2DS original** (no New 3DS) japonesa y quieres cambiar el idioma del sistema a **inglés**.
+- Tienes una **3DS / 3DS XL / 2DS original** japonesa y quieres cambiar el idioma del sistema a **español**.
 - Buscas un firmware estable (v11.5.0) para preparar o actualizar tu consola.
 - Necesitas una base adecuada antes de instalar homebrew, CFW u otras herramientas.
 
@@ -44,6 +58,7 @@ Estos pueden coexistir con el pack MSET9 del repositorio [Nayo-3DS-Herramientas-
 
 ## Notas
 
+- **Solo O3DS** (3DS, 3DS XL, 2DS). **No New 3DS / New 3DS XL / New 2DS XL.**
 - Usa este firmware bajo tu propia responsabilidad.
 - Haz copia de seguridad de tu NAND antes de modificar la consola.
 - Asegúrate de que el modelo y la versión de tu 3DS sean compatibles con el proceso que vayas a seguir.
