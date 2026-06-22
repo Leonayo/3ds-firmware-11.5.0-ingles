@@ -17,13 +17,30 @@ Es útil si:
 
 ## Descarga
 
-La forma más sencilla de obtener el archivo es desde la sección **Releases**:
+### Opción 1 — 3ds Nayo HackToolkit (recomendado)
+
+Descarga e instala desde el programa **3ds Nayo HackToolkit** (Windows):
+
+- Marca **Firmware 11.5.0 (JP→EN/ES)** y pulsa *Descargar seleccionados*
+- Con **Instalar en SD Card** activado, los archivos del firmware van **directamente a la raíz de la SD** (junto a `mset9.py`, `boot.firm`, etc.) — **no** se crea la carpeta `Firmware-3DS-11.5.0/` en la tarjeta
+- El ZIP se extrae en el PC y solo se copian los archivos necesarios a la SD
+
+### Opción 2 — Release de GitHub
 
 👉 [Descargar v11.5.0](https://github.com/Leonayo/3ds-firmware-11.5.0-ingles/releases/tag/v11.5.0)
 
-También puedes descargarlo desde **3ds Nayo HackToolkit** (opción *Firmware 11.5.0 JP→EN/ES*).
+Archivo: `3ds.Firmware.Ingles.11.5.0.zip` (~714 MB)
 
-Archivo: `3ds Firmware Ingles 11.5.0.zip` (~714 MB)
+Tras extraer manualmente, coloca los archivos del firmware (`.bin`, `.sha`, etc.) en la **raíz de la SD** de la 3DS, no dentro de una subcarpeta.
+
+## Archivos típicos en la SD
+
+En la raíz de la tarjeta deberías tener, entre otros:
+
+- `11.5.0-38U_ctrtransfer_o3ds.bin`
+- `11.5.0-38U_ctrtransfer_o3ds.bin.sha`
+
+Estos pueden coexistir con el pack MSET9 del repositorio [Nayo-3DS-Herramientas-Completas](https://github.com/Leonayo/Nayo-3DS-Herramientas-Completas).
 
 ## Notas
 
@@ -34,4 +51,4 @@ Archivo: `3ds Firmware Ingles 11.5.0.zip` (~714 MB)
 
 ---
 
-**Repositorio:** [Leonayo/3ds-firmware-11.5.0-ingles](https://github.com/Leonayo/3ds-firmware-11.5.0-ingles)
+**Repositorio:** [Leonayo/3ds-firmware-11.5.0-ingles](https://github.com/Leonayo/3ds-firmware-11.5.0-ingles) · **Pack MSET9:** [Leonayo/Nayo-3DS-Herramientas-Completas](https://github.com/Leonayo/Nayo-3DS-Herramientas-Completas)
